@@ -28,10 +28,13 @@
 
 ### Installation (for local)
 
-1. **Clone the repo:** Use the following command to clone this repo to your local machine
+1. **Clone the repo (must have git installed):** Use the following command to clone this repo to your local machine
    ```sh
    git clone https://github.com/BlueBatRay2/nodejstask.git
    ```
+   **Alternative method:** download zip from https://github.com/BlueBatRay2/nodejstask and extract.
+
+
 2. **Change directory:** Move to project directory
    ```sh
    cd nodejstask
@@ -57,8 +60,8 @@
     - `file` (Required) path/to/file
 
   **Return Values:**
-    - `hash` *unique hash of file uploaded*
-    - `size` *size of file just uploaded*
+    - `hash` unique hash of file uploaded
+    - `size` size of file just uploaded
 
 Here is an example of the request in CURL:
 ```http
