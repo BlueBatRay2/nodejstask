@@ -1,0 +1,24 @@
+{
+  "name": "nodejstask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "multiparty": "^4.2.3",
+    "sqlite3": "^5.1.6"
+  },
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "supertest": "^6.3.3"
+  }
+}
